@@ -1,0 +1,29 @@
+.setting {
+    background-color: #fafbfc;
+    padding: 30px;
+    height: 100vh;
+}
+
+.setting-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+.title {
+    color: #2c6291;
+}
+.grid1 {
+    width: 37%;
+    background-color: #fff;
+    margin-left: 3%;
+    margin-bottom: 2%;
+    padding: 10px 22px;
+    border: 1px solid #d2d6dd;
+}
+.grid-title {
+    color: #2c6291;
+}
+
+.grid-description {
+    color: #9ba3b2;
+}
+
