@@ -1,0 +1,39 @@
+
+  {
+    "class":"setting",
+    "title":{
+        "name":"SETTINGS",
+        "class":"title"
+    },
+    "grid":[
+        {
+            "title":"General",
+            "description":"Personnel Settings",
+            "class":"grid1",
+           "class2":"title",
+           "class3":"description"
+         
+        },
+        {
+          "title":"General",
+            "description":"Personnel Settings",
+            "class":"grid1",
+            "class2":"title",
+            "class3":"description"
+        },
+        {
+          "title":"General",
+          "description":"Personnel Settings",
+          "class":"grid1",
+          "class2":"title",
+          "class3":"description"
+        },
+        {
+          "title":"General",
+          "description":"Personnel Settings",
+          "class":"grid1",
+          "class2":"title",
+          "class3":"description"
+        }   
+    ]
+}
