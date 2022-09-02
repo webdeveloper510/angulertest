@@ -1,24 +1,11 @@
 
-<div class="setting">
-    <h1 class="title">SETTINGS</h1>
+<div [class]="pageData.class">
+    <h3 [class]="pageData.title.class">{{pageData.title.name}}</h3>
  
-    <div class="setting-grid">
- 
-     <div class="grid1">
-       <h4 class="grid-title">General</h4>
-       <p class="grid-description">Personnel Settings</p>
-     </div>
-     <div class="grid1">
-       <h4 class="grid-title">General</h4>
-       <p class="grid-description">Personnel Settings</p>
-     </div>
-     <div class="grid1">
-       <h4 class="grid-title">General</h4>
-       <p class="grid-description">Personnel Settings</p>
-     </div>
-     <div class="grid1">
-       <h4 class="grid-title">General</h4>
-       <p class="grid-description">Personnel Settings</p>
+    <div class="setting-grid" >
+     <div [class]="grid.class"  *ngFor="let grid of pageData.grid">
+       <h4 [class]="grid.class2">{{grid.title}}</h4>
+       <p [class]="grid.class3">{{grid.description}}</p>
      </div>
     </div>
    </div>

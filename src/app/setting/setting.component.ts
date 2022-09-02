@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import data from '../../assets/text.json'
 
 @Component({
   selector: 'app-setting',
@@ -6,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./setting.component.css']
 })
 export class SettingComponent implements OnInit {
-
+pageData=data
   constructor() { }
 
   ngOnInit(): void {
