@@ -3,13 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { TestComponent } from './test/test.component';
+
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { SettingComponent } from './setting/setting.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TestComponent
+    SettingComponent
   ],
   imports: [
     BrowserModule,
