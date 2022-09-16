@@ -11,6 +11,7 @@ pageData=data
   constructor() { }
 
   ngOnInit(): void {
+    console.log(this.pageData)
   }
 
 }

@@ -3,7 +3,8 @@
     "class":"setting",
     "title":{
         "name":"SETTINGS",
-        "class":"title"
+        "class":"title",
+        "color":"red"
     },
     "grid":[
         {
@@ -11,6 +12,9 @@
             "description":"Personnel Settings",
             "class":"grid1",
            "class2":"title",
+           "color":"red",
+           "smalltitle":"#9ba3b2",
+           "bordercolor":"#d2d6dd",
            "class3":"description"
          
         },
@@ -19,6 +23,9 @@
             "description":"Personnel Settings",
             "class":"grid1",
             "class2":"title",
+            "color":"red",
+            "smalltitle":"#9ba3b2",
+            "bordercolor":"#d2d6dd",
             "class3":"description"
         },
         {
@@ -26,6 +33,9 @@
           "description":"Personnel Settings",
           "class":"grid1",
           "class2":"title",
+          "smalltitle":"#9ba3b2",
+          "color":"red",
+          "bordercolor":"#d2d6dd",
           "class3":"description"
         },
         {
@@ -33,7 +43,10 @@
           "description":"Personnel Settings",
           "class":"grid1",
           "class2":"title",
-          "class3":"description"
+          "smalltitle":"#9ba3b2",
+          "color":"red",
+          "class3":"description",
+          "bordercolor":"#d2d6dd"
         }   
     ]
 }
