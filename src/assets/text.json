@@ -1,6 +1,7 @@
 
   {
     "class":"setting",
+    "backgroundColor":"#fafbfc",
     "title":{
         "name":"SETTINGS",
         "class":"title",
